@@ -33,11 +33,10 @@
             <a class="nav-link" href="index.html"><i class="fa-solid fa-house icons"></i>My Dashboard</a>
           </li>
           <li>
-            <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My Profile</a>
+            <a class="nav-link active" href="profile.html"><i class="fa-solid fa-user icons"></i>My Profile</a>
           </li>
           <li>
-            <a class="nav-link active" href="find_talent_page.html"><i
-                class="fa-solid fa-magnifying-glass icons"></i>Find
+            <a class="nav-link" href="find_talent_page.html"><i class="fa-solid fa-magnifying-glass icons"></i>Find
               Talents</a>
           </li>
           <li>
@@ -65,14 +64,14 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="top-nav-content">
-              <a href="#" data-bs-toggle="modal" data-bs-target="#notification"><i
+              <a href="#" class="notification" data-bs-toggle="modal" data-bs-target="#notification"><i
                   class="fa-solid fa-bell icons"></i></a>
               <a href="#" data-bs-toggle="modal" data-bs-target="#project" class="btn">Post a project</a>
             </div>
             <div id="navbarNav" style="display: none">
               <ul class="navbar-nav nav-2">
                 <li>
-                  <a class="nav-link" href="index.html"><i class="fa-solid fa-house icons"></i>My Dashboard</a>
+                  <a class="nav-link active" href="index.html"><i class="fa-solid fa-house icons"></i>My Dashboard</a>
                 </li>
                 <li>
                   <a class="nav-link" href="profile.html"><i class="fa-solid fa-user icons"></i>My Profile</a>
@@ -94,93 +93,92 @@
 
       <!-- body -->
       <div class="container-fluid body-container">
-        <div class="element">
-          <div class="talent-page freelancer_profile">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="talent_profile">
-                  <div class="talent-info">
-                    <div class="freelancer_info">
-                      <div class="freelancer">
-                        <a href="talent_profile_page.html"><img class="freelancer_img" src="assets/img/client_img.png"
-                            alt="" /></a>
-                        <div class="info">
-                          <div>
-                            <a href="talent_profile_page.html">
-                              <h2>
-                                Mahfuzur Rahman
-                                <img src="assets/img/Icons.svg" alt="" />
-                              </h2>
-                            </a>
-                            <p>UI/UX Designer & Front-end Developer</p>
-                          </div>
-                          <div class="down-icons-list">
-                            <div class="ex_icon">
-                              <span><i class="fa-solid fa-book icons"></i></span>
-                              <span><i class="fa-solid fa-star icons"></i></span>
-                              <span><i class="fa-solid fa-trophy icons"></i></span>
-                            </div>
-                            <div class="star">
-                              <i class="fa-solid fa-star icons"></i>
-                              <i class="fa-solid fa-star icons"></i>
-                              <i class="fa-solid fa-star icons"></i>
-                              <i class="fa-solid fa-star icons"></i>
-                              <i class="fa-solid fa-star icons"></i>
-                              <p>(5.0)</p>
-                            </div>
-                            <div class="country">
-                              <p>
-                                <img src="assets/img/country/BD_Flag.png" alt="" />
-                                Bangladesh
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <a href="#" class="btn">Contact Me</a>
-                    </div>
-                  </div>
-                  <div class="keywords-group">
-                    <div class="ky_btn">keywords</div>
-                    <div class="ky_btn">keywords</div>
-                    <div class="ky_btn">keywords</div>
-                    <div class="ky_btn">keywords</div>
-                    <div class="ky_btn">keywords</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="talent-page client-page">
+          <h1>My Profile</h1>
           <div class="row">
-            <div class="col-lg-12">
-              <div class="about_us">
-                <div class="section-title">
-                  <h2>About Us</h2>
-                  <div class="btn">Expert certified</div>
+            <div class="col-lg-12 mt-3">
+              <div class="talent_profile client_profile">
+                <div class="talent-info">
+                  <div class="freelancer_info">
+                    <div class="freelancer">
+                      <a href="talent_profile_page.html"><img class="freelancer_img" src="assets/img/client_img.png"
+                          alt="" /></a>
+                      <div class="info">
+                        <div>
+                          <a href="talent_profile_page.html">
+                            <h2>
+                              Mahfuzur Rahman
+                              <img src="assets/img/Icons.svg" alt="" />
+                            </h2>
+                          </a>
+                          <p>CEO</p>
+                        </div>
+                        <div class="down-icons-list">
+                          <div class="star">
+                            <i class="fa-solid fa-star icons"></i>
+                            <i class="fa-solid fa-star icons"></i>
+                            <i class="fa-solid fa-star icons"></i>
+                            <i class="fa-solid fa-star icons"></i>
+                            <i class="fa-solid fa-star icons"></i>
+                            <p>(5.0)</p>
+                          </div>
+                          <div class="country">
+                            <p>
+                              <img src="assets/img/country/BD_Flag.png" alt="" />
+                              Bangladesh
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#edit_profile">Edit Profile</a>
+                  </div>
                 </div>
-                <p>
-                  List of professionals each card should contain : Photo,
-                  name, Badges( you can se on our website on the last feedback
-                  sections), stars of reviews,  Description, Tags below the
-                  description with skills, List of professionals each card
-                  should contain : Photo, name, Badges( you can se on our
-                  website on the last feedback sections), stars of reviews, 
-                  Description, Tags below the description with skills,
-                </p>
+                <div class="p-info">
+                  <div class="act-project">
+                    <p>Number of projects published: <span>5</span></p>
+                  </div>
+                  <div>
+                    <p>Phone Number: <span>0123456789</span></p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="row seller_review">
-            <div class="col-lg-12">
-              <div class="post_project user mt-5">
-                <div class="nav">
-                  <h1>Reviews for this seller</h1>
-                  <h1 class="ratting_number">
-                    <i class="fa-solid fa-star icons"></i>(550)
-                  </h1>
+        </div>
+        <div class="row seller_review">
+          <div class="col-lg-12">
+            <div class="post_project user mt-5">
+              <div class="nav">
+                <h1>Reviews as Buyer</h1>
+                <h1 class="ratting_number">
+                  <i class="fa-solid fa-star icons"></i>(550)
+                </h1>
+              </div>
+              <div class="proposals-list" style="overflow-y: hidden">
+                <div class="client-reviews">
+                  <div class="proposal client">
+                    <div class="user">
+                      <div class="freelancer-img">
+                        <img src="assets/img/client_img.png" alt="" />
+                      </div>
+                      <div class="proposal-info">
+                        <p class="name">Name Here</p>
+                        <div class="ratting mt-1">
+                          <p class="star">
+                            <i class="fa-solid fa-star icons"></i> (5.0)
+                          </p>
+                        </div>
+                        <p class="mt-2">Highly skilled and talented.</p>
+                      </div>
+                    </div>
+                    <div class="day">
+                      <p>Published 1 week ago</p>
+                    </div>
+                  </div>
                 </div>
-                <div class="proposals-list">
-                  <div class="proposal">
+                <div class="client-reviews">
+                  <div class="proposal client">
                     <div class="user">
                       <div class="freelancer-img">
                         <img src="assets/img/client_img.png" alt="" />
@@ -190,10 +188,6 @@
                         <div class="ratting mt-1">
                           <p class="star">
                             <i class="fa-solid fa-star icons"></i> (5.0)
-                          </p>
-                          <p>
-                            <img src="assets/img/country/BD_Flag.png" alt="" />
-                            Bangladesh
                           </p>
                         </div>
                         <p class="mt-2">Highly skilled and talented.</p>
@@ -203,7 +197,9 @@
                       <p>Published 1 week ago</p>
                     </div>
                   </div>
-                  <div class="proposal">
+                </div>
+                <div class="client-reviews">
+                  <div class="proposal client">
                     <div class="user">
                       <div class="freelancer-img">
                         <img src="assets/img/client_img.png" alt="" />
@@ -213,10 +209,6 @@
                         <div class="ratting mt-1">
                           <p class="star">
                             <i class="fa-solid fa-star icons"></i> (5.0)
-                          </p>
-                          <p>
-                            <img src="assets/img/country/BD_Flag.png" alt="" />
-                            Bangladesh
                           </p>
                         </div>
                         <p class="mt-2">Highly skilled and talented.</p>
@@ -226,7 +218,9 @@
                       <p>Published 1 week ago</p>
                     </div>
                   </div>
-                  <div class="proposal">
+                </div>
+                <div class="client-reviews">
+                  <div class="proposal client">
                     <div class="user">
                       <div class="freelancer-img">
                         <img src="assets/img/client_img.png" alt="" />
@@ -236,10 +230,6 @@
                         <div class="ratting mt-1">
                           <p class="star">
                             <i class="fa-solid fa-star icons"></i> (5.0)
-                          </p>
-                          <p>
-                            <img src="assets/img/country/BD_Flag.png" alt="" />
-                            Bangladesh
                           </p>
                         </div>
                         <p class="mt-2">Highly skilled and talented.</p>
@@ -259,6 +249,60 @@
   </div>
 
   <!-- Popup -->
+
+  <!-- Edit Profile Popup -->
+  <div class="modal fade" id="edit_profile" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalLabel">
+            Profile Information
+          </h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark popup-icons"></i>
+          </button>
+        </div>
+        <div class="modal-body notifi">
+          <div class="upload-img">
+            <canvas id="canv1"></canvas>
+
+            <p>
+              <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()" />
+            </p>
+          </div>
+          <div class="user-info mt-3" id="personal">
+            <div class="items">
+              <div class="item">
+                <div class="search__name" id="name">First Name</div>
+                <input type="name" class="search__input" placeholder="first name" />
+              </div>
+              <div class="item">
+                <div class="search__name" id="gender">Last Nmae</div>
+                <input type="name" class="search__input" placeholder="last nmae" />
+              </div>
+            </div>
+            <div class="items">
+              <div class="item">
+                <div class="search__name" id="weight">Phone Number</div>
+                <input type="phone" class="search__input" placeholder="your number" />
+              </div>
+            </div>
+            <div class="items">
+              <div class="item">
+                <div class="search__name" id="weight">Country Name</div>
+                <input type="text" class="search__input" placeholder="country" />
+              </div>
+            </div>
+            <a href="index.html" class="btn btn__secondary" onclick="submit()">
+              Save
+            </a>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Notification Popup -->
   <div class="modal fade" id="notification" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -412,9 +456,7 @@
                 <p>Acceptance policy checkbox</p>
               </div>
             </div>
-            <a href="active_project-page.html" class="btn btn__secondary" onclick="submit()">
-              Post a project
-            </a>
+            <a href="active_project-page.html" class="btn btn__secondary" onclick="submit()">Post a project</a>
           </div>
         </div>
       </div>
@@ -425,6 +467,7 @@
   <script src="assets/js/jquery-3.6.4.min.js"></script>
   <script src="assets/js/all.min.js"></script>
   <script src="assets/js/fontawesome.min.js"></script>
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/style.js"></script>
 </body>
